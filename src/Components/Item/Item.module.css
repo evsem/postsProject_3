@@ -1,0 +1,27 @@
+.wrapper {
+  padding: 10px;
+  background-color: transparent;
+  border: 2px solid teal;
+  border-radius: 3px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  font-family: var(--mon--ff);
+  text-align: left;
+}
+
+.container_titlePost {
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+}
+
+.container_infoAboutPost {
+  font-size: 22px;
+  font-weight: 300;
+}

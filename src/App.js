@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Form from './Components/Form/Form'
 import List from './Components/List/List'
 import './Style/App.css'
 
@@ -15,8 +16,12 @@ const App = () => {
   const removePost = (post) => {
     setPosts(posts.filter((p) => p.id !== post.id))
   }
+  const addNewPost = (newPost) => {
+    setPosts([...posts, newPost])
+  }
   return (
     <div className="App_wrapper">
+      <Form addPost_Func={addNewPost} />
       <List posts={posts} removePost={removePost} />
     </div>
   )

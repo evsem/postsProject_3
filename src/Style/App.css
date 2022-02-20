@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+:root {
+  --mon-ff: 'Montserrat';
+}
+
+body {
+  padding: 10px 0px;
+  background-color: whitesmoke;
+  font-family: var(--mon-ff);
+  font-size: 16px;
+  font-weight: 300;
+  color: black;
+}
+
+.App_wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}

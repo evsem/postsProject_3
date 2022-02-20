@@ -12,6 +12,7 @@
 
 :root {
   --mon-ff: 'Montserrat';
+  --border-teal: 2px solid teal;
 }
 
 body {
